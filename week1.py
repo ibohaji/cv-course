@@ -66,9 +66,6 @@ p_h = project_points(K,R,t,Q)
 
 x,y = p_h
 
-plt.scatter(x,y)
-plt.title("Projected 2d point")
-
 
 # In[223]:
 
@@ -115,6 +112,5 @@ p_h = project_points(K,R,t,Q)
 
 x,y = p_h
 
-plt.scatter(x,y)
-plt.title("Projected 2d point")
+
 
