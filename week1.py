@@ -70,18 +70,10 @@ x,y = p_h
 # In[223]:
 
 
-from sympy import Matrix, symbols, init_printing
 
 # Enable pretty-printing in the output
-init_printing(use_unicode=True)
 
-# Define symbols (if your matrix involves symbolic expressions)
-a, b, c, d = symbols('a b c d')
 
-# Define your matrix
-M = Matrix(p_h)
-# Display the matrix
-M
 
 
 # In[224]:
