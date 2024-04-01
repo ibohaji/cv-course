@@ -144,7 +144,6 @@ def detectBlobs(im,sigma,n,tau):
             for y in range(1,M-1): 
                 if (suppressed[x, y] == 1):
                     if img[x, y] > above[x, y] and img[x, y] > below[x, y]:
-                    
                         blobs.append((x, y,scale)) 
                         
 
